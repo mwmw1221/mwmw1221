@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "login": "mwmw1221",
+  "seed": "#E6A00E",
+  "seedFromAvatar": true,
+  "scheme": "tonalSpot",
+  "motion": true,
+  "iconFill": true,
+  "order": [
+    "hero",
+    "buttons",
+    "socials",
+    "projects",
+    "about",
+    "stats",
+    "stack",
+    "wave",
+    "streak"
+  ],
+  "hidden": [
+    "streak"
+  ],
+  "hero": {
+    "greeting": "Yo, I'm",
+    "name": "",
+    "subtitle": "I make random stuff that basically nobody uses.",
+    "typing": true,
+    "avatarShape": "cookie",
+    "chips": [
+      {
+        "icon": "location_on",
+        "label": "Somewhere in this galaxy"
+      },
+      {
+        "icon": "code",
+        "label": "AS3 · Python · Kotlin"
+      }
+    ]
+  },
+  "about": {
+    "title": "About me",
+    "items": [
+      {
+        "icon": "person",
+        "label": "Developer, designer"
+      },
+      {
+        "icon": "window",
+        "label": "Hates Windows with a passion"
+      },
+      {
+        "icon": "bolt",
+        "label": "Hyperfixated on modding the uConnect 3C"
+      }
+    ]
+  },
+  "stack": {
+    "title": "Stuff I use",
+    "groups": [
+      {
+        "title": "Languages",
+        "items": [
+          {
+            "icon": "airwave",
+            "label": "Adobe AIR (AS3)"
+          },
+          {
+            "icon": "brand:python",
+            "label": "Python"
+          },
+          {
+            "icon": "brand:kotlin",
+            "label": "Kotlin Multiplatform"
+          },
+          {
+            "icon": "brand:html5",
+            "label": "HTML+CSS+JS (no framework)"
+          }
+        ]
+      },
+      {
+        "title": "Tools",
+        "items": [
+          {
+            "icon": "brand:git",
+            "label": "Git (of course)"
+          },
+          {
+            "icon": "brand:linux",
+            "label": "Le Linucks (Arch BTW)"
+          },
+          {
+            "icon": "brand:figma",
+            "label": "Figma"
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "source": "manual",
+    "repos": [
+      "uconnect-codegen",
+      "hmigateway-emulator"
+    ],
+    "overrides": {
+      "junsun-mt8163-root": {
+        "text": "Rooted bootimg for Junsun headunits",
+        "icon": "directions_car"
+      },
+      "uconnect-codegen": {
+        "icon": "barcode_scanner"
+      },
+      "hmigateway-emulator": {
+        "text": "Barely working uConnect 3C TCP bridge simulator ",
+        "icon": "account_tree"
+      }
+    },
+    "empty": "No description yet.",
+    "fork": "Fork"
+  },
+  "stats": {
+    "title": "Bullshit-making stats",
+    "stars": "Stars earned",
+    "contributions": "Contributions this year",
+    "repos": "Public repos",
+    "followers": "Followers",
+    "calendar": "Last 21 days",
+    "weekdays": "SMTWTFS",
+    "languages": "Languages across my repositories",
+    "showLanguages": false
+  },
+  "streak": {
+    "title": "Streak",
+    "current": "Current streak",
+    "longest": "Longest this year",
+    "days": "days"
+  },
+  "socials": {
+    "items": [
+      {
+        "icon": "brand:discord",
+        "url": "https://discord.com/@mwmw1221"
+      },
+      {
+        "icon": "brand:reddit",
+        "url": "https://www.reddit.com/u/mwzdalne/"
+      }
+    ],
+    "variant": "chip",
+    "fill": "brand",
+    "card": false
+  },
+  "buttons": {
+    "items": [
+      {
+        "icon": "language",
+        "label": "uconnext project",
+        "url": "https://github.com/uconnext-project",
+        "style": "tonal"
+      },
+      {
+        "icon": "book_2",
+        "label": "All repositories",
+        "url": "",
+        "style": "filled"
+      }
+    ]
+  }
+}
